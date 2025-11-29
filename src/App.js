@@ -1,11 +1,11 @@
-import { MainBar , MainPage , Account } from './Components/index';
+import { MainBar , MainPage , Account , Information } from './Components/index';
 
 function App() {
   return (
     <div className="App flex">
       <MainBar />
       <MainPage />
-      <Account />
+      <Information />
     </div>
   );
 }

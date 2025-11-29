@@ -31,7 +31,7 @@ const Choices = () => {
                     <Choice icon={<TbHelp />} name="Help Center" />
                     <Choice icon={<MdOutlinePolicy />} name="Policies" />
                 </div>
-                <button className='border py-2 px-5 rounded-lg text-gray-500 mr-2 text-xs'
+                <button className='border py-1 px-5 rounded-lg text-gray-500 mr-2 text-[9px]'
                 >Log out</button>
 
                 <div className='flex'>

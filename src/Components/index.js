@@ -10,3 +10,8 @@ export { default as ItemOfInfoSection } from './ItemOfInfoSection/ItemOfInfoSect
 export {default as TinyAreaChart} from './TinyAreaChart/TinyAreaChart';
 export { default as Action } from './Action/Action';
 export { default as Actions } from './Actions/Actions';
+export { default as Title } from './Title/Title';
+export { default as Reactions } from './Reactions/Reactions';
+export { default as Information } from './Information/Information';
+export { default as Management } from './Managment/Management';
+export {default as ManagementItem} from './ManagementItem/ManagementItem'
