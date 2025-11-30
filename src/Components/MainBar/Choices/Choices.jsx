@@ -18,9 +18,9 @@ const Choices = () => {
     return (
             <div className='ml-3'>
                 <div className='border-b'>
-                    <Choice icon={<MdHome />} name="Home" />
+                    <Choice path="/" icon={<MdHome />} name="Home" />
                     <Choice icon={<RiTeamLine />} name="Teams" />
-                    <Choice icon={<MdOutlineDateRange />} name="Events" />
+                    <Choice path="/events" icon={<MdOutlineDateRange />} name="Events" />
                     <Choice icon={<CgProfile />} name="Profile" />
                     <Choice icon={<BsLightning />} name="Quests" />
                 </div>
