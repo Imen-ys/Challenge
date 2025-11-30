@@ -21,3 +21,6 @@ export { default as Workshops } from './Workshops/Workshops';
 export { default as Workshop } from './Workshop/Workshop';
 export {default as Profile} from './Profile/Profile';
 export {default as WorkshopHistory} from './WorkshopsHistory/WorkshopsHistory'
+export {default as InformationEventPage} from './InformationIEventPage/InformationEventPage'
+export {default as Progress} from './Progress/Progress'
+export {default as Statistique} from './Statistique/Statistique'

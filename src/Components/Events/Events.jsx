@@ -1,5 +1,5 @@
-import {MainBar,Title , SearchInput , Workshops , Profile,
-        WorkshopHistory
+import {MainBar,Title , SearchInput , Workshops ,
+        WorkshopHistory , InformationEventPage
 } from '../index';
 const Events = () => {
     return (
@@ -11,7 +11,7 @@ const Events = () => {
                 <Workshops />
                 <WorkshopHistory />
             </div>
-            <Profile />
+            <InformationEventPage />
 
         </div>
     );
