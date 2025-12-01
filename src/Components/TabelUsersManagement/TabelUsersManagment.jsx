@@ -13,18 +13,16 @@ const TabelUsersManagment = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    <TableElement Member={"Member's name"} Role={"Leader"} Level={"50 points "} Last_Active={"2 days ago"}/>
-                    <TableElement Member={"Member's name"} Role={"Co Leader"} Level={"50 points"} Last_Active={"5 hours ago"}/>
-                    <TableElement Member={"Member's name"} Role={"SG"} Level={"50 points"} Last_Active={"1 day ago"}/>
-                    <TableElement Member={"Member's name"} Role={"VP"} Level={"50 points"} Last_Active={"3 days ago"}/>
-                    <TableElement Member={"Member's name"} Role={"TM"} Level={"50 points "} Last_Active={"2 days ago"}/>
-                    <TableElement Member={"Member's name"} Role={"Tech Leader"} Level={"50 points "} Last_Active={"5 hours ago"}/>
-                    <TableElement Member={"Member's name"} Role={"Member"} Level={"50 points "} Last_Active={"1 day ago"}/>
-                    <TableElement Member={"Member's name"} Role={"Member"} Level={"50 points "} Last_Active={"3 days ago"}/>
+                    <TableElement Member={"Member's name"} Role={"Leader"} Level={"50 points "} Last_Active={"2 days ago"} Action1={"View Profile"} Action2={"Remove"}/>
+                    <TableElement Member={"Member's name"} Role={"Co Leader"} Level={"50 points"} Last_Active={"5 hours ago"} Action1={"View Profile"} Action2={"Remove"}/>
+                    <TableElement Member={"Member's name"} Role={"SG"} Level={"50 points"} Last_Active={"1 day ago"} Action1={"View Profile"} Action2={"Remove"}/>
+                    <TableElement Member={"Member's name"} Role={"VP"} Level={"50 points"} Last_Active={"3 days ago"} Action1={"View Profile"} Action2={"Remove"}/>
+                    <TableElement Member={"Member's name"} Role={"TM"} Level={"50 points "} Last_Active={"2 days ago"} Action1={"View Profile"} Action2={"Remove"}/>
+                    <TableElement Member={"Member's name"} Role={"Tech Leader"} Level={"50 points "} Last_Active={"5 hours ago"} Action1={"View Profile"} Action2={"Remove"}/>
+                    <TableElement Member={"Member's name"} Role={"Member"} Level={"50 points "} Last_Active={"1 day ago"} Action1={"View Profile"} Action2={"Remove"}/>
+                    <TableElement Member={"Member's name"} Role={"Member"} Level={"50 points "} Last_Active={"3 days ago"} Action1={"View Profile"} Action2={"Remove"}/>
                 </tbody>
-
             </table>
-
         </div>
     );
 }

@@ -1,5 +1,6 @@
 import {Action} from '../index'
 import { IoMdAdd } from "react-icons/io";
+import { MdOutlineFileUpload } from "react-icons/md";
 const Actions = () => {
     return (
         <div className='flex w-[800px] ml-3'>
@@ -15,7 +16,7 @@ const Actions = () => {
                 brcolor={"border-b-[#FFD1AB]"}
             />
 
-            <Action icon={<IoMdAdd />}
+            <Action icon={<MdOutlineFileUpload />}
                 title={"Upload Report"}
                 bgcolor={"bg-[#FFEDEE]"}
                 brcolor={"border-b-[#FFA9AB]"}
