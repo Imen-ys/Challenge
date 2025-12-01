@@ -24,3 +24,8 @@ export {default as WorkshopHistory} from './WorkshopsHistory/WorkshopsHistory'
 export {default as InformationEventPage} from './InformationIEventPage/InformationEventPage'
 export {default as Progress} from './Progress/Progress'
 export {default as Statistique} from './Statistique/Statistique'
+export {default as UsersManagementsPage} from './UsersManagementsPage/UsersManagementsPage';
+export {default as ManageTeam} from './ManageTeam/ManageTeam';
+export {default as InformationManageTeam} from './InformationMangeTeam/InformationManageTeam';
+export {default as TabelUsersManagment} from './TabelUsersManagement/TabelUsersManagment';
+export {default as TableElement} from './TableElement/TableElement';

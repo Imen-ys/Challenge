@@ -19,19 +19,22 @@ const data = [
     },
 ];
 
-const statistique = () => {
+const statistique = ({color}) => {
   return (
 
-    <div>
-            <BarChart className='mt-3 '
+    <div className='mr-2 rounded-md p-2 shadow-md'>
+        <h2 className='font-bold mt-2 text-lg'>
+            Attendace Rate
+        </h2>
+        <BarChart className='mt-3 '
         style={{ width: '300%', maxWidth: '300px', maxHeight: '200px', aspectRatio: 0.4  }}
         responsive
         data={data}
         >
         <XAxis dataKey="name" />
         <YAxis datakey="uv" />
-        <Bar dataKey="uv" fill="#FFD1AB" />
-    </BarChart>
+        <Bar dataKey="uv" fill={color} />
+        </BarChart>
     </div>
 
   );

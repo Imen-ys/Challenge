@@ -2,7 +2,7 @@ import {InfoSection , SearchInput , TinyAreaChart , Actions , Title} from '../in
 const MainPage = () => {
 return (
     <div className="flex flex-col items-center w-full">
-        <SearchInput/>
+        <SearchInput placeholder="Search members..." />
         <Title Title="Overview Panel" />
         <InfoSection />
         <Title Title="Points Earned This Month" />
