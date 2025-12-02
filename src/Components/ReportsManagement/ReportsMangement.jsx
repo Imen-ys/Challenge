@@ -9,8 +9,6 @@ const ReportsMangement = () => {
         </div>
             <InfoSectionReports/>
             <TableReports/>
-
-
         </div>
     );
 }

@@ -36,3 +36,8 @@ export {default as InformationReports} from './InformationReports/InformationRep
 export {default as InfoSectionReports } from'./InfoSectionReports/InfoSectionReports';
 export {default as TableReports } from'./TableReports/TableReports';
 export {default as ManagementTable } from'./ManagementTabel/ManagementTabel';
+export {default as Content} from './Content/Content';
+export {default as ContentManagement} from './ContentManagement/ContentManagement';
+export {default as InfoSectionContent} from './InfoSectionContent/InfoSectionContent';
+export {default as InformationContent} from './InformationContent/InformationContent';
+export {default as TableContent} from './TableContent/TableContent';

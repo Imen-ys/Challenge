@@ -1,4 +1,4 @@
-import { TheFirstPage , Events  , Reports , ManageTeam} from './Components/index';
+import { TheFirstPage , Events  , Reports , ManageTeam , Content} from './Components/index';
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
           <Route path='/events' element={<Events />}/>
           <Route path='/management/Team' element={<ManageTeam />}/>
           <Route path='/management/Reports' element={<Reports />}/>
+          <Route path='/management/Content' element={<Content />}/>
         </Routes>
       </Router>
     </div>
