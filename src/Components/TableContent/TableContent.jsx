@@ -5,16 +5,23 @@ import { MdFilePresent } from "react-icons/md";
 const TableContent = () => {
     return (
         <div>
+            <div className="flex my-2 ml-4">
+
+                <p className="py-1 px-2 bg-purple-200 mr-2 text-sm rounded-md">All</p>
+                <p className="py-1 px-2 bg-gray-100 text-gray-600 mr-2 text-sm rounded-md">Status</p>
+                <p className="py-1 px-2 bg-gray-100 text-gray-600 text-sm rounded-md">Content Type</p>
+
+            </div>
             <div className="mt-4 mr-8">
-            <table className="table w-full border-collapse mx-3 text-sm ">
+            <table className="w-full border-collapse mx-3 text-sm ">
                 <thead>
-                    <tr className=" bg-purple-600 border items-center ">
-                        <th className="border p-2">Report Title</th>
+                    <tr className="bg-purple-100 border text-center">
+                        <th className="border p-2 ">Report Title</th>
                         <th className="border p-2">Submitted By</th>
                         <th className="border p-2">Status</th>
                         <th className="border p-2">Submission Date</th>
                         <th className="border p-2">Reports</th>
-                        <th className="p-2">Actions</th>
+                        <th className="p-2 ">Actions</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -69,7 +76,7 @@ const TableContent = () => {
                         />
 
 
-                                            <ManagementTable
+                        <ManagementTable
                         Report_Title="Report Title"
                         Submitted_By="Username"
                         Status={
@@ -90,7 +97,7 @@ const TableContent = () => {
                         Action2={<span className="text-gray-500">Request Revision</span>}
                         />
 
-                                            <ManagementTable
+                        <ManagementTable
                         Report_Title="Report Title"
                         Submitted_By="Username"
                         Status={
@@ -110,8 +117,6 @@ const TableContent = () => {
                         Action1="Approve"
                         Action2={<span className="text-gray-500">Request Revision</span>}
                         />
-
-                        
                         <ManagementTable
                         Report_Title="Report Title"
                         Submitted_By="Username"

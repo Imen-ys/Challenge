@@ -6,7 +6,7 @@ const InformationReports = () => {
             <Reactions />
             <Profile />
             <Progress color={'bg-[#FFA9AB]'} />
-            <Statistique color={'#FFA9AB'}/>
+            <Statistique color={'#FFA9AB'} Title={"Monthly Progress"}/>
 
             <Action icon={<MdOutlineFileUpload />}
                 title={"Upload Report"}

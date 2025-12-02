@@ -7,7 +7,7 @@ const InformationEventPage = () => {
             <Reactions />
             <Profile />
             <Progress color={'bg-[#FFD1AB]'} />
-            <Statistique color={'#FFD1AB'}/>
+            <Statistique color={'#FFD1AB'} Title={"Attendace Rate"}/>
 
             <Action icon={<IoMdAdd />}
                 title={"Add Event"}

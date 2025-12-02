@@ -7,7 +7,7 @@ const InformationContent = () => {
             <Reactions />
             <Profile />
             <Progress color={'bg-[#E1C9FF]'} />
-            <Statistique color={'#E1C9FF'}/>
+            <Statistique color={'#E1C9FF'} Title={"Monthly Progress"}/>
 
             <Action icon={<IoMdAdd />}
                 title={"Add Video"}

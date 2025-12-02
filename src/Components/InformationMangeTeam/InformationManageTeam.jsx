@@ -7,7 +7,7 @@ const InformationManageTeam = () => {
             <Reactions />
             <Profile />
             <Progress color={'bg-[#C3D9FF]'} />
-            <Statistique color={'#C3D9FF'}/>
+            <Statistique color={'#C3D9FF'} Title={"Attendace Rate"}/>
 
             <Action icon={<IoMdAdd />}
                 title={"Add Member"}

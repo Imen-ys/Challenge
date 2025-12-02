@@ -12,6 +12,7 @@ const WorkshopsHistory = () => {
                 <th scope="col">Type</th>
                 <th scope="col">Date</th>
                 <th scope="col">Attendes</th>
+                <th scope='col'>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -20,6 +21,7 @@ const WorkshopsHistory = () => {
                 <td>Event Type</td>
                 <td className='flex'><CiCalendarDate className="mt-1 mr-1" />Oct 22,2025</td>
                 <td>12</td>
+                <td className='underline'>View Details</td>
             </tr>
 
             <tr>
@@ -27,6 +29,7 @@ const WorkshopsHistory = () => {
                 <td>Event Type</td>
                 <td className='flex'><CiCalendarDate className="mt-1 mr-1" />Oct 22,2025</td>
                 <td>12</td>
+                <td className='underline'>View Details</td>
             </tr>
 
                         <tr>
@@ -34,6 +37,7 @@ const WorkshopsHistory = () => {
                 <td>Event Type</td>
                 <td className='flex'><CiCalendarDate className="mt-1 mr-1" />Oct 22,2025</td>
                 <td>12</td>
+                <td className='underline'>View Details</td>
             </tr>
 
                         <tr>
@@ -41,6 +45,7 @@ const WorkshopsHistory = () => {
                 <td>Event Type</td>
                 <td className='flex'><CiCalendarDate className="mt-1 mr-1" />Oct 22,2025</td>
                 <td>12</td>
+                <td className='underline'>View Details</td>
             </tr>
 
                         <tr>
@@ -48,6 +53,7 @@ const WorkshopsHistory = () => {
                 <td>Event Type</td>
                 <td className='flex'><CiCalendarDate className="mt-1 mr-1" />Oct 22,2025</td>
                 <td>12</td>
+                <td className='underline'>View Details</td>
             </tr>
 
             <tr>
@@ -55,6 +61,7 @@ const WorkshopsHistory = () => {
                 <td>Event Type</td>
                 <td className='flex'><CiCalendarDate className="mt-1 mr-1" />Oct 22,2025</td>
                 <td>12</td>
+                <td className='underline'>View Details</td>
             </tr>
 
             <tr>
@@ -62,6 +69,7 @@ const WorkshopsHistory = () => {
                 <td>Event Type</td>
                 <td className='flex'><CiCalendarDate className="mt-1 mr-1" />Oct 22,2025</td>
                 <td>12</td>
+                <td className='underline'>View Details</td>
             </tr>
             
         </tbody>
