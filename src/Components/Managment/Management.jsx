@@ -6,6 +6,7 @@ import { BiSolidBookContent } from "react-icons/bi";
 const Management = () => {
     return (
         <div className="mt-3  ml-2">
+            <h1 className="mx-2 font-bold text-[17px]">Management Hub</h1>
             <ManagementItem path={'/management/Team'} icon={<TiGroup />} title={"Manage Team"} iconColor={"bg-[#C3D9FF]"} bg={"bg-[#F3F8FF]"} bordercolor={"border-[#C3D9FF]"}/>
             <ManagementItem icon={<BsCalendar2DateFill />} title={"Manage Events"} iconColor={"bg-[#FFD4B0]"} bg={"bg-[#FFF6EE]"} bordercolor={"border-[#FFE8D5]"}/>
             <ManagementItem path={'/management/Reports'} icon={<BiSolidReport />} title={"Manage Reports"} iconColor={"bg-[#FFA9AB]"} bg={"bg-[#FFEDEE]"} bordercolor={"border-[#FFD4D5]"}/>
