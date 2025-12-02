@@ -35,3 +35,4 @@ export {default as SubTitle} from './SubTitle/SubTitle';
 export {default as InformationReports} from './InformationReports/InformationReports';
 export {default as InfoSectionReports } from'./InfoSectionReports/InfoSectionReports';
 export {default as TableReports } from'./TableReports/TableReports';
+export {default as ManagementTable } from'./ManagementTabel/ManagementTabel';

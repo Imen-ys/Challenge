@@ -31,8 +31,9 @@ const Choices = () => {
                     <Choice icon={<TbHelp />} name="Help Center" />
                     <Choice icon={<MdOutlinePolicy />} name="Policies" />
                 </div>
-                <button className='border py-1 px-5 rounded-lg text-gray-500 mr-2 text-[9px]'
-                >Log out</button>
+                <button className='border rounded-lg text-gray-500 cursor-pointer
+                py-1 px-8 mr-2 text-[12px]  '>
+                    Log out</button>
 
                 <div className='flex'>
                     <Media icon={<IoLogoTiktok />} />

@@ -1,6 +1,7 @@
-import {TableElement} from "../index"
+import {ManagementTable} from "../index"
 import { FaCircle } from "react-icons/fa6";
 import { MdOutlineDateRange } from "react-icons/md";
+import { MdFilePresent } from "react-icons/md";
 const TableReports = () => {
     return (
         <div>
@@ -17,61 +18,143 @@ const TableReports = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    <TableElement Member={"Report Title"} Role={"Username"} Level={
-                        <span className="flex items-center gap-2 text-yellow-500 ">
-                        <FaCircle  />
-                        <p>pending</p>
-                        </span>}
-                        Last_Active={<span className="flex items-center gap-2"><MdOutlineDateRange />{"Oct 22,2025"}</span>}
-                        Action1={"Send Reminder"}
-                        Action2={""}
+                    <ManagementTable
+                        Report_Title="Report Title"
+                        Submitted_By="Username"
+                        Status={
+                            <span className="flex items-center gap-2 text-yellow-500 text-[10px] font-bold">
+                                <FaCircle/>
+                                <p className="text-[13px]">Pending</p>
+                            </span>}
+                        Submission_Date={
+                            <span className="flex items-center gap-2"><MdOutlineDateRange/>Oct 22.2025
+                            </span>}
+                        Reports="Not Found"
+                        Action2={<span className="text-red-500">Send Reminder</span>}/>
+
+                    <ManagementTable
+                        Report_Title="Report Title"
+                        Submitted_By="Username"
+                        Status={
+                            <span className="flex items-center gap-2 text-green-500 text-[10px] font-bold">
+                                <FaCircle/>
+                                <p className="text-[13px] ">Submitted</p>
+                            </span>}
+                        Submission_Date={
+                                <span className="flex items-center gap-2">
+                                    <MdOutlineDateRange/>Oct 22.2025
+                                </span>}
+                        Reports={
+                            <span className="flex items-center gap-1 text-[10px] text-gray-500 font-bold">
+                                <MdFilePresent className="text-[15px]"/>
+                                View Report
+                            </span>}
+                        Action1="Approve"
+                        Action2={<span className="text-gray-500">Request Revision</span>}
                         />
 
-                    <TableElement Member={"Report Title"} Role={"Username"} Level={
-                        <span className="flex items-center gap-2 text-green-500 ">
-                        <FaCircle  />
-                        <p>submitted</p>
-                        </span>}
-                        Last_Active={<span className="flex items-center gap-2"><MdOutlineDateRange />{"Oct 22,2025"}</span>}
-                        Action1={"Approve"}
-                        Action2={"Request Revision"}
+                        <ManagementTable
+                        Report_Title="Report Title"
+                        Submitted_By="Username"
+                        Status={
+                            <span className="flex items-center gap-2 text-red-500 text-[10px] font-bold">
+                                <FaCircle/>
+                                <p className="text-[13px]">Late</p>
+                            </span>}
+                        Submission_Date={
+                            <span className="flex items-center gap-2"><MdOutlineDateRange/>Oct 22.2025
+                            </span>}
+                        Reports="Not Found"
+                        Action2={<span className="text-red-500">Send Reminder</span>}
                         />
-                    <TableElement Member={"Report Title"} Role={"Username"} Level={
-                        <span className="flex items-center gap-2 text-red-500 ">
-                        <FaCircle  />
-                        <p>late</p>
-                        </span>}
-                        Last_Active={<span className="flex items-center gap-2"><MdOutlineDateRange />{"Oct 22,2025"}</span>}/>
-                    <TableElement Member={"Report Title"} Role={"Username"} Level={
-                        <span className="flex items-center gap-2 text-green-500 ">
-                        <FaCircle  />
-                        <p>submitted</p>
-                        </span>}
-                        Last_Active={<span className="flex items-center gap-2"><MdOutlineDateRange />{"Oct 22,2025"}</span>}/>
-                    <TableElement Member={"Report Title"} Role={"Username"} Level={
-                        <span className="flex items-center gap-2 text-yellow-500 ">
-                        <FaCircle  />
-                        <p>pending</p>
-                        </span>}
-                        Last_Active={<span className="flex items-center gap-2"><MdOutlineDateRange />{"Oct 22,2025"}</span>}/>
-                    <TableElement Member={"Report Title"} Role={"Username"} Level={
-                        <span className="flex items-center gap-2 text-green-500 ">
-                        <FaCircle  />
-                        <p>submitted</p>
-                        </span>}
-                        Last_Active={<span className="flex items-center gap-2"><MdOutlineDateRange />{"Oct 22,2025"}</span>}/>
-                    <TableElement Member={"Report Title"} Role={"Username"} Level={
-                        <span className="flex items-center gap-2 text-red-500 ">
-                        <FaCircle  />
-                        <p>late</p>
-                        </span>}
-                        Last_Active={<span className="flex items-center gap-2"><MdOutlineDateRange />{"Oct 22,2025"}</span>}/>
-                    <TableElement Member={"Report Title"} Role={"Username"} Level={
-                        <span className="flex items-center gap-2 text-green-500 ">
-                        <FaCircle  />
-                        <p>submitted</p>
-                        </span>}
-                        Last_Active={<span className="flex items-center gap-2"><MdOutlineDateRange />{"Oct 22,2025"}</span>}/>
+
+
+                                            <ManagementTable
+                        Report_Title="Report Title"
+                        Submitted_By="Username"
+                        Status={
+                            <span className="flex items-center gap-2 text-green-500 text-[10px] font-bold">
+                                <FaCircle/>
+                                <p className="text-[13px] ">Submitted</p>
+                            </span>}
+                        Submission_Date={
+                                <span className="flex items-center gap-2">
+                                    <MdOutlineDateRange/>Oct 22.2025
+                                </span>}
+                        Reports={
+                            <span className="flex items-center gap-1 text-[10px] text-gray-500 font-bold">
+                                <MdFilePresent className="text-[15px]"/>
+                                View Report
+                            </span>}
+                        Action1="Approve"
+                        Action2={<span className="text-gray-500">Request Revision</span>}
+                        />
+
+                                            <ManagementTable
+                        Report_Title="Report Title"
+                        Submitted_By="Username"
+                        Status={
+                            <span className="flex items-center gap-2 text-green-500 text-[10px] font-bold">
+                                <FaCircle/>
+                                <p className="text-[13px] ">Submitted</p>
+                            </span>}
+                        Submission_Date={
+                                <span className="flex items-center gap-2">
+                                    <MdOutlineDateRange/>Oct 22.2025
+                                </span>}
+                        Reports={
+                            <span className="flex items-center gap-1 text-[10px] text-gray-500 font-bold">
+                                <MdFilePresent className="text-[15px]"/>
+                                View Report
+                            </span>}
+                        Action1="Approve"
+                        Action2={<span className="text-gray-500">Request Revision</span>}
+                        />
+
+                        
+                        <ManagementTable
+                        Report_Title="Report Title"
+                        Submitted_By="Username"
+                        Status={
+                            <span className="flex items-center gap-2 text-red-500 text-[10px] font-bold">
+                                <FaCircle/>
+                                <p className="text-[13px]">Late</p>
+                            </span>}
+                        Submission_Date={
+                            <span className="flex items-center gap-2"><MdOutlineDateRange/>Oct 22.2025
+                            </span>}
+                        Reports="Not Found"
+                        Action2={<span className="text-red-500">Send Reminder</span>}
+                        />
+
+                        <ManagementTable
+                        Report_Title="Report Title"
+                        Submitted_By="Username"
+                        Status={
+                            <span className="flex items-center gap-2 text-yellow-500 text-[10px] font-bold">
+                                <FaCircle/>
+                                <p className="text-[13px]">Pending</p>
+                            </span>}
+                        Submission_Date={
+                            <span className="flex items-center gap-2"><MdOutlineDateRange/>Oct 22.2025
+                            </span>}
+                        Reports="Not Found"
+                        Action2={<span className="text-red-500">Send Reminder</span>}/>
+
+                        <ManagementTable
+                        Report_Title="Report Title"
+                        Submitted_By="Username"
+                        Status={
+                            <span className="flex items-center gap-2 text-red-500 text-[10px] font-bold">
+                                <FaCircle/>
+                                <p className="text-[13px]">Late</p>
+                            </span>}
+                        Submission_Date={
+                            <span className="flex items-center gap-2"><MdOutlineDateRange/>Oct 22.2025
+                            </span>}
+                        Reports="Not Found"
+                        Action2={<span className="text-red-500">Send Reminder</span>}
+                        />
                 </tbody>
             </table>
         </div>
